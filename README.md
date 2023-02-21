@@ -80,6 +80,15 @@ To do so, complete the following steps:
 
 3. Save each of your models as an HDF5 file.
 
+### Results
+The original model has two hidden layers with 58 and 29 nodes, respectively, and one output layer with 1 node. The model was trained for 50 epochs and achieved an accuracy of 0.7266.
+
+Alternative model 1 has one hidden layer with 117 nodes and one output layer with 1 node. The model was trained for 50 epochs and achieved an accuracy of 0.7226.
+
+Alternative model 2 has two hidden layers with 118 and 59 nodes, respectively, and one output layer with 1 node. The model was trained for 50 epochs and achieved an accuracy of 0.7244.
+
+Based on these results, we can see that the original model performed slightly better than the alternative models, achieving the highest accuracy of 0.7266. However, the differences in accuracy between the models are relatively small.
+
 ---
 
 Copyright 2022 2U. All Rights Reserved.
